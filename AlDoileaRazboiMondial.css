@@ -1,0 +1,89 @@
+body{
+	margin:0;
+	font-family:"Open Sans";
+	background:#efefef;
+}
+p{
+    font-size:125%; text-indent:5%; margin-left:20%; margin-right:20%;
+}
+p.evaluare{
+	font-family:"Open Sans"; font-size:115%; padding:0px 0px;
+    margin:0px;
+	color:black;
+	text-align:justify;
+}
+.bar{
+    position:fixed;
+    left:0; top:0;
+    width:100%;
+	overflow:hidden;
+	background-color:#7a7a7a;
+}
+	.bar a{
+		float:left; text-align:center;
+		color:white;
+		font-family:"Josefin Sans"; font-size:135%;
+		padding:10px 16px; width:7.5%;
+		text-decoration:none;
+	}
+		.bar a:hover{
+			background-color:#a0a0a0;
+		}
+		.bar a:active{
+			background-color:#b2b2b2;
+		}
+		.bar a.home{
+			background-color:#919191;
+			padding:10px 25px;
+		}
+			.bar a.home:hover{
+				background-color:#a0a0a0;
+			}
+			.bar a.home:active{
+				background-color:#b2b2b2;
+			}
+div.evaluare{
+    padding:10px 0px;
+}
+button.evaluare{
+    font-family:"Josefin Sans"; font-size:80%;
+    background-color:#686868; color:white;
+    border:none; border-radius:5px;
+    padding:0.75% 1.5%;
+    float:left;
+}
+    button.evaluare:hover{
+        background-color:#565656;
+    }
+    button.evaluare:active{
+        background-color:#3f3f3f;
+    }
+    button.evaluare:focus{
+        outline:none;
+    }
+p.HomeImage{
+    text-align:center;
+    font-family:Times; font-style:italic;
+    font-size:140%;
+    margin-bottom:0%;
+}
+
+p.Signature{
+    text-align:right;
+    font-family:Times; font-style:italic;
+	font-size:90%;
+    margin-top:0%;
+    margin-left:0%;
+	margin-right:5%;
+
+}    
+
+h1.content{
+    margin-top:5%; margin-left:20%; font-family:'Josefin Sans'; font-size:250%; text-align:left; font-weight:normal;
+}
+p.Descriere-Imagini{
+	margin-left:36%;
+	margin-right:36%;
+    font-family:Times; font-style:italic;
+	font-size:100%;
+}
